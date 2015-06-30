@@ -15,6 +15,9 @@
 		FBDE9E891B3BD5FA00BE2710 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBDE9E881B3BD5FA00BE2710 /* Images.xcassets */; };
 		FBDE9E8C1B3BD5FA00BE2710 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBDE9E8A1B3BD5FA00BE2710 /* LaunchScreen.xib */; };
 		FBDE9E981B3BD5FA00BE2710 /* downloadFileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDE9E971B3BD5FA00BE2710 /* downloadFileTests.m */; };
+		FBDE9EA31B3BD62C00BE2710 /* downLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDE9EA21B3BD62C00BE2710 /* downLoad.m */; };
+		FBDEDA7E1B3D072B00BE4824 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDEDA7D1B3D072B00BE4824 /* FirstViewController.m */; };
+		FBDEDA811B3D073900BE4824 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDEDA801B3D073900BE4824 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,12 @@
 		FBDE9E911B3BD5FA00BE2710 /* downloadFileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = downloadFileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBDE9E961B3BD5FA00BE2710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBDE9E971B3BD5FA00BE2710 /* downloadFileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = downloadFileTests.m; sourceTree = "<group>"; };
+		FBDE9EA11B3BD62C00BE2710 /* downLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = downLoad.h; sourceTree = "<group>"; };
+		FBDE9EA21B3BD62C00BE2710 /* downLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = downLoad.m; sourceTree = "<group>"; };
+		FBDEDA7C1B3D072B00BE4824 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		FBDEDA7D1B3D072B00BE4824 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		FBDEDA7F1B3D073900BE4824 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		FBDEDA801B3D073900BE4824 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +101,12 @@
 				FBDE9E8A1B3BD5FA00BE2710 /* LaunchScreen.xib */,
 				FBDE9E7F1B3BD5FA00BE2710 /* downloadFile.xcdatamodeld */,
 				FBDE9E781B3BD5FA00BE2710 /* Supporting Files */,
+				FBDE9EA11B3BD62C00BE2710 /* downLoad.h */,
+				FBDE9EA21B3BD62C00BE2710 /* downLoad.m */,
+				FBDEDA7C1B3D072B00BE4824 /* FirstViewController.h */,
+				FBDEDA7D1B3D072B00BE4824 /* FirstViewController.m */,
+				FBDEDA7F1B3D073900BE4824 /* SecondViewController.h */,
+				FBDEDA801B3D073900BE4824 /* SecondViewController.m */,
 			);
 			path = downloadFile;
 			sourceTree = "<group>";
@@ -223,9 +238,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBDE9E7E1B3BD5FA00BE2710 /* AppDelegate.m in Sources */,
+				FBDEDA7E1B3D072B00BE4824 /* FirstViewController.m in Sources */,
 				FBDE9E811B3BD5FA00BE2710 /* downloadFile.xcdatamodeld in Sources */,
+				FBDEDA811B3D073900BE4824 /* SecondViewController.m in Sources */,
 				FBDE9E841B3BD5FA00BE2710 /* ViewController.m in Sources */,
 				FBDE9E7B1B3BD5FA00BE2710 /* main.m in Sources */,
+				FBDE9EA31B3BD62C00BE2710 /* downLoad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +436,7 @@
 				FBDE9E9D1B3BD5FA00BE2710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBDE9E9E1B3BD5FA00BE2710 /* Build configuration list for PBXNativeTarget "downloadFileTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +445,7 @@
 				FBDE9EA01B3BD5FA00BE2710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
